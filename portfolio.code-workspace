@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "D:/portfolio"
+		},
+		{
+			"path": "../assets"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../js"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html"
+	}
+}

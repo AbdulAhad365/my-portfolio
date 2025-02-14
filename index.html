@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Ahad Aamir - ML Developer</title>
+    <script>
+        // Set dark theme immediately before page loads
+        document.documentElement.dataset.theme = 'dark';
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="particles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fas fa-code me-2"></i>Abdul Ahad Aamir
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div id="network-animation"></div>
+            <div id="particles-js"></div>
+            <div class="container position-relative">
+                <div class="row min-vh-100 align-items-center">
+                    <div class="col-md-6 text-center text-md-start" data-aos="fade-right">
+                        <div class="hero-content">
+                            <span class="badge custom-badge mb-3">Available for Freelance</span>
+                            <h1 class="fw-bold" id="typing-text">Hello, I'm Abdul Ahad Aamir</h1>
+                            <h2 class="h3 mb-4 text-gradient">Machine Learning & AI Developer</h2>
+                            <div class="typed-text mb-4">
+                                <span class="lead">Specialized in </span>
+                                <span id="typed" class="text-primary"></span>
+                            </div>
+                            <div class="stats-container mb-4">
+                                <div class="row g-3">
+                                    <div class="col-4">
+                                        <div class="stat-item">
+                                            <h3 class="stat-number">15+</h3>
+                                            <p class="stat-text">Projects</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="stat-item">
+                                            <h3 class="stat-number">98%</h3>
+                                            <p class="stat-text">Client Rating</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="stat-item">
+                                            <h3 class="stat-number">3+</h3>
+                                            <p class="stat-text">Years Exp.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cta-buttons">
+                                <a href="resume.pdf" class="btn btn-primary me-3" download>
+                                    <i class="fas fa-download me-2"></i>Download CV
+                                </a>
+                                <a href="#" class="btn btn-outline hire-btn">
+                                    <i class="fas fa-paper-plane me-2"></i>Hire Me
+                                </a>
+                            </div>
+                            <div class="tech-stack mt-4">
+                                <p class="tech-label">Tech Stack</p>
+                                <div class="tech-icons">
+                                    <i class="fab fa-python" title="Python"></i>
+                                    <i class="fab fa-tensorflow" title="TensorFlow"></i>
+                                    <i class="fas fa-brain" title="Machine Learning"></i>
+                                    <i class="fab fa-github" title="Git"></i>
+                                    <i class="fab fa-docker" title="Docker"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center" data-aos="fade-left">
+                        <div class="profile-img-container">
+                            <div class="profile-img-wrapper">
+                                <img src="photo.png" alt="Abdul Ahad Aamir" class="profile-img">
+                                <div class="floating-card card1">
+                                    <i class="fas fa-brain"></i>
+                                    <span>ML</span>
+                                </div>
+                                <div class="floating-card card2">
+                                    <i class="fas fa-robot"></i>
+                                    <span>AI</span>
+                                </div>
+                                <div class="floating-card card3">
+                                    <i class="fas fa-code"></i>
+                                    <span>Python</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="quick-stats" data-aos="fade-up">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="quick-stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h4>50+</h4>
+                            <p>GitHub Repos</p>
+                        </div>
+                    </div>
+                    <div class="quick-stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h4>10+</h4>
+                            <p>Certifications</p>
+                        </div>
+                    </div>
+                    <div class="quick-stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h4>25+</h4>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+                    <div class="quick-stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h4>500+</h4>
+                            <p>Hours of Coding</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="showcase-section" data-aos="fade-up">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">Recent work that showcases my expertise in ML & AI</p>
+                </div>
+                
+                <div class="showcase-grid">
+                    <!-- Facial Recognition -->
+                    <div class="showcase-item large" data-aos="fade-up">
+                        <div class="showcase-content">
+                            <div class="project-meta">
+                                <div class="project-category">Computer Vision</div>
+                                <div class="project-year">2024</div>
+                            </div>
+                            <h3>Facial Recognition System</h3>
+                            <p>Real-time face detection and recognition using deep learning, capable of identifying multiple faces simultaneously.</p>
+                            <div class="tech-stack">
+                                <span>Python</span>
+                                <span>OpenCV</span>
+                                <span>Deep Learning</span>
+                            </div>
+                            <div class="project-cta">
+                                <a href="projects/facial-recognition.html" class="btn-project">
+                                    View Case Study
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="showcase-image">
+                            <img src="face.jpg" alt="Facial Recognition System">
+                            <div class="image-overlay"></div>
+                        </div>
+                    </div>
+
+                    <!-- WhatsApp Analysis -->
+                    <div class="showcase-item" data-aos="fade-up">
+                        <div class="showcase-content">
+                            <div class="project-meta">
+                                <div class="project-category">NLP</div>
+                                <div class="project-year">2023</div>
+                            </div>
+                            <h3>WhatsApp Chat Analyzer</h3>
+                            <p>Advanced chat analysis with sentiment detection and pattern recognition.</p>
+                            <div class="tech-stack">
+                                <span>Python</span>
+                                <span>NLTK</span>
+                                <span>Pandas</span>
+                            </div>
+                            <div class="project-cta">
+                                <a href="projects/whatsapp-analysis.html" class="btn-project">
+                                    View Case Study
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="showcase-image">
+                            <img src="whatsapp.png" alt="WhatsApp Chat Analysis">
+                            <div class="image-overlay"></div>
+                        </div>
+                    </div>
+
+                    <!-- Movie Recommender -->
+                    <div class="showcase-item" data-aos="fade-up">
+                        <div class="showcase-content">
+                            <div class="project-meta">
+                                <div class="project-category">Machine Learning</div>
+                                <div class="project-year">2023</div>
+                            </div>
+                            <h3>Movie Recommender System</h3>
+                            <p>An intelligent recommendation engine powered by collaborative filtering and content-based algorithms.</p>
+                            <div class="tech-stack">
+                                <span>Python</span>
+                                <span>TensorFlow</span>
+                                <span>Scikit-learn</span>
+                            </div>
+                            <div class="project-cta">
+                                <a href="projects/movie-recommender.html" class="btn-project">
+                                    View Case Study
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="showcase-image">
+                            <img src="movie.jpg" alt="Movie Recommender">
+                            <div class="image-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-showcase" data-aos="fade-up">
+            <div class="container">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="skills-grid">
+                    <!-- Programming Languages -->
+                    <div class="skill-category" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3>Programming</h3>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Python</span>
+                                    <span class="percentage">95%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 95%">
+                                        <div class="glow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>JavaScript</span>
+                                    <span class="percentage">85%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 85%">
+                                        <div class="glow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>C++</span>
+                                    <span class="percentage">80%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 80%">
+                                        <div class="glow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ML/AI -->
+                    <div class="skill-category" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h3>ML/AI</h3>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>TensorFlow</span>
+                                    <span class="percentage">90%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 90%">
+                                        <div class="glow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>PyTorch</span>
+                                    <span class="percentage">85%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 85%">
+                                        <div class="glow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Scikit-learn</span>
+                                    <span class="percentage">88%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 88%">
+                                        <div class="glow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools -->
+                    <div class="skill-category" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <h3>Tools</h3>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Git</span>
+                                    <span class="percentage">92%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 92%">
+                                        <div class="glow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Docker</span>
+                                    <span class="percentage">85%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 85%">
+                                        <div class="glow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>AWS</span>
+                                    <span class="percentage">88%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 88%">
+                                        <div class="glow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials-section" data-aos="fade-up">
+            <div class="container">
+                <h2 class="section-title">Client Testimonials</h2>
+                <p class="section-subtitle">What my clients say about my work</p>
+                
+                <div class="testimonials-grid">
+                    <div class="testimonial-card" data-aos="fade-up">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p>"Abdul delivered an exceptional ML solution that exceeded our expectations. His expertise in AI and attention to detail made our project a success."</p>
+                            <div class="client-info">
+                                <img src="client1.jpg" alt="Client">
+                                <div>
+                                    <h4>John Smith</h4>
+                                    <p>CEO, TechCorp</p>
+                                </div>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add 2 more testimonial cards -->
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section" data-aos="fade-up">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Start Your Project?</h2>
+                    <p>Let's collaborate to bring your AI & ML ideas to life</p>
+                    <div class="cta-buttons">
+                        <a href="contact.html" class="btn btn-primary">
+                            <i class="fas fa-paper-plane me-2"></i>Get in Touch
+                        </a>
+                        <a href="calendar.html" class="btn btn-outline">
+                            <i class="fas fa-calendar me-2"></i>Schedule a Call
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="achievements-section" data-aos="fade-up">
+            <div class="container">
+                <h2 class="section-title">Certifications & Awards</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-card" data-aos="zoom-in">
+                        <img src="tensorflow.png" alt="TensorFlow">
+                        <h3>TensorFlow Developer</h3>
+                        <p>Google Certification</p>
+                        <a href="#" class="verify-link">Verify <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <!-- Add more achievement cards -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <footer class="footer-section">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <!-- About Column -->
+                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                        <div class="footer-info">
+                            <h3>Abdul Ahad Aamir</h3>
+                            <p class="mb-4">Specialized in Machine Learning and AI solutions, creating intelligent systems that make a difference.</p>
+                            <div class="social-links">
+                                <a href="https://github.com/AbdulAhad365" class="github">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://linkedin.com/in/yourusername" class="linkedin">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="https://twitter.com/yourusername" class="twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="mailto:your.email@example.com" class="email">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                        <h4>Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Services -->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                        <h4>Services</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">Machine Learning Solutions</a></li>
+                            <li><a href="#">AI Development</a></li>
+                            <li><a href="#">Data Analysis</a></li>
+                            <li><a href="#">Computer Vision</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="col-lg-3 col-md-6">
+                        <h4>Contact Info</h4>
+                        <ul class="footer-contact">
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:your.email@example.com">your.email@example.com</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:+1234567890">+123 456 7890</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Islamabad, Pakistan</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="mb-md-0">© 2024 Abdul Ahad Aamir. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <div class="footer-bottom-links">
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms of Service</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Theme toggle functionality with initial state
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = themeToggle.querySelector('i');
+        
+        // Set initial theme to dark
+        document.documentElement.dataset.theme = 'dark';
+        themeIcon.className = 'fas fa-sun';
+        
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = document.documentElement.dataset.theme;
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.dataset.theme = newTheme;
+            themeIcon.className = newTheme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+        });
+
+        // Add smooth scroll behavior
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Replace the existing typing effect script with this:
+        document.addEventListener('DOMContentLoaded', function() {
+            const text = "Hello, I'm Abdul Ahad Aamir";
+            const typingText = document.getElementById('typing-text');
+            typingText.innerHTML = ''; // Clear the text
+            
+            function typeWriter(text, i = 0) {
+                if (i < text.length) {
+                    typingText.innerHTML += text.charAt(i);
+                    setTimeout(() => typeWriter(text, i + 1), 100);
+                }
+            }
+            
+            // Start the typing animation after a short delay
+            setTimeout(() => typeWriter(text), 500);
+        });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="particles.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        // Typed.js initialization
+        new Typed('#typed', {
+            strings: [
+                'Machine Learning',
+                'Deep Learning',
+                'Computer Vision',
+                'Natural Language Processing',
+                'AI Development'
+            ],
+            typeSpeed: 50,
+            backSpeed: 30,
+            loop: true
+        });
+    </script>
+    <script type="module">
+        import { NetworkAnimation } from './3d-network.js';
+        new NetworkAnimation();
+    </script>
+</body>
+</html> 
