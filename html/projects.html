@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Abdul Ahad Aamir</title>
+    <script>
+        // Set theme immediately to prevent flash
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.dataset.theme = savedTheme;
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/projects.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fas fa-code me-2"></i>Abdul Ahad Aamir
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="projects-hero">
+            <div class="container">
+                <h1 class="projects-title">My Projects</h1>
+                <div class="row g-4">
+                    <!-- Movie Recommender System -->
+                    <div class="col-md-6">
+                        <div class="project-card">
+                            <div class="project-content">
+                                <div class="project-icon">
+                                    <i class="fas fa-film"></i>
+                                </div>
+                                <h3>Movie Recommender System</h3>
+                                <p>A sophisticated recommendation engine that suggests movies based on user preferences and viewing history using collaborative filtering and content-based algorithms.</p>
+                                <div class="tech-stack">
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">Machine Learning</span>
+                                    <span class="tech-tag">Collaborative Filtering</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="btn project-btn">
+                                        <i class="fab fa-github me-2"></i>View Code
+                                    </a>
+                                    <a href="#" class="btn project-btn">
+                                        <i class="fas fa-external-link-alt me-2"></i>Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- WhatsApp Chat Analysis -->
+                    <div class="col-md-6">
+                        <div class="project-card">
+                            <div class="project-content">
+                                <div class="project-icon">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <h3>WhatsApp Chat Analysis</h3>
+                                <p>An analytical tool that processes WhatsApp chat data to provide insights into conversation patterns, sentiment analysis, and user engagement metrics.</p>
+                                <div class="tech-stack">
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">NLP</span>
+                                    <span class="tech-tag">Data Analysis</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="btn project-btn">
+                                        <i class="fab fa-github me-2"></i>View Code
+                                    </a>
+                                    <a href="#" class="btn project-btn">
+                                        <i class="fas fa-external-link-alt me-2"></i>Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Facial Recognition System -->
+                    <div class="col-md-6">
+                        <div class="project-card">
+                            <div class="project-content">
+                                <div class="project-icon">
+                                    <i class="fas fa-user-circle"></i>
+                                </div>
+                                <h3>Facial Recognition System</h3>
+                                <p>A real-time facial recognition system using deep learning for accurate face detection and identification with support for multiple faces.</p>
+                                <div class="tech-stack">
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">OpenCV</span>
+                                    <span class="tech-tag">Deep Learning</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="btn project-btn">
+                                        <i class="fab fa-github me-2"></i>View Code
+                                    </a>
+                                    <a href="#" class="btn project-btn">
+                                        <i class="fas fa-external-link-alt me-2"></i>Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Agent using n8n -->
+                    <div class="col-md-6">
+                        <div class="project-card">
+                            <div class="project-content">
+                                <div class="project-icon">
+                                    <i class="fas fa-robot"></i>
+                                </div>
+                                <h3>Automated Email Reply Agent</h3>
+                                <p>An intelligent email automation system using n8n for workflow automation, capable of analyzing and generating contextual responses to incoming emails.</p>
+                                <div class="tech-stack">
+                                    <span class="tech-tag">n8n</span>
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">AI</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="btn project-btn">
+                                        <i class="fab fa-github me-2"></i>View Code
+                                    </a>
+                                    <a href="#" class="btn project-btn">
+                                        <i class="fas fa-external-link-alt me-2"></i>Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+        <i class="fas fa-sun"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/theme.js"></script>
+</body>
+</html> 

@@ -1,0 +1,148 @@
+/* Projects Hero Section */
+.projects-hero {
+    padding: 120px 0;
+    background: var(--background-color);
+    position: relative;
+    overflow: hidden;
+}
+
+.projects-hero::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at top right, rgba(79, 70, 229, 0.1) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.projects-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+    background: var(--gradient-1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    opacity: 0;
+    animation: fadeInUp 1s ease forwards;
+}
+
+/* Project Cards */
+.project-card {
+    background: var(--card-bg);
+    color: var(--text-color);
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+    transition: all 0.3s ease;
+    height: 100%;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease forwards;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(79, 70, 229, 0.15);
+}
+
+.project-content {
+    padding: 2rem;
+}
+
+.project-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    background: var(--gradient-1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.project-card p {
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+/* Tech Stack Tags */
+.tech-stack {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tech-tag {
+    background: rgba(79, 70, 229, 0.1);
+    color: var(--primary-color);
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* Project Links */
+.project-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.project-btn {
+    background: var(--gradient-1);
+    color: white !important;
+    padding: 0.8rem 1.2rem;
+    border-radius: 50px;
+    font-weight: 500;
+    flex: 1;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.project-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(79, 70, 229, 0.3);
+}
+
+/* Animation Delay for Cards */
+.col-md-6:nth-child(2) .project-card {
+    animation-delay: 0.2s;
+}
+
+.col-md-6:nth-child(3) .project-card {
+    animation-delay: 0.4s;
+}
+
+.col-md-6:nth-child(4) .project-card {
+    animation-delay: 0.6s;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .projects-title {
+        font-size: 2.5rem;
+    }
+
+    .project-links {
+        flex-direction: column;
+    }
+
+    .project-card {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Make sure all color properties use CSS variables */
+.project-title {
+    color: var(--text-color);
+}
+
+.project-description {
+    color: var(--text-color);
+    opacity: 0.8;
+} 
